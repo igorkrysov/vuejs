@@ -10,7 +10,7 @@
         </tr>
         <tr v-for="(category, index) in categories">
           <td>{{ index }}</td>
-          <td>{{ category.category}}</td>
+          <td>{{ category.category }}</td>
           <td><button v-on:click="deleteCategory(category, index)">X</button></td>
           <td><button v-on:click="editCategory(category, index)" v-b-modal.modal1>edit</button></td>
         </tr>
